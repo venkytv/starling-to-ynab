@@ -6,7 +6,7 @@ jobs:
   releases-matrix:
     name: Release Go Binary
     runs-on: ubuntu-latest
-    startegy:
+    strategy:
       matrix:
         goos: [linux, darwin]
         goarch: ["386", amd64, arm64]
